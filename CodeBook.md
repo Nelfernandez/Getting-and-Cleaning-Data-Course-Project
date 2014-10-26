@@ -13,7 +13,7 @@
 ######y_train
 
 #####Putting data in one data set
-######Xbind * Put X_train and X_test together
+######Xbind ######## Put X_train and X_test together
 ######subjectbind * Put subject_train and subject_test  together
 ######ybind * Put  y_train and y_test together
 
