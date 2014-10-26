@@ -3,19 +3,19 @@
 ######features
 
 #####This variables names correspond to each test file that was read
-*subject_test
-**X_test
-***y_test
+######subject_test
+######X_test
+######y_test
 
 #####This variables names correspond to each train file that was read
-*subject_train
-**X_train
-***y_train
+######subject_train
+######X_train
+######y_train
 
 #####Putting data in one data set
-*Xbind # Put X_train and X_test together
-**subjectbind # Put subject_train and subject_test  together
-***ybind # Put  y_train and y_test together
+######Xbind * Put X_train and X_test together
+######subjectbind * Put subject_train and subject_test  together
+######ybind * Put  y_train and y_test together
 
 #####Giving column names
 *colnames(Xbind) <- features # Put "features" as a variable name at the top of Xbind
