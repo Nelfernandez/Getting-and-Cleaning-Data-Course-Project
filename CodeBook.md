@@ -1,3 +1,5 @@
+## This code book describes the variables, the data, and any transformations or work that you performed to clean up the data 
+
 #####Reading files. This variables names correspond to each file to read
 ######actlabels
 ######features
