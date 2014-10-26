@@ -29,17 +29,3 @@
 #####Creating one data set with Xbind, subjectbind, ybind
 ######dataset
 
-#####Merging with activity labels
-######actname
-######colnames(actlabels) <- actname * Put "Activity" as a name to actlabels
-######dataset * Merged data set with "Activity"
-
-#####Paste columns
-######Activity <- paste(dataset[,1], dataset[,564], sep = " ") * Pasted column of activity number and activity name
-######dataset <- cbind(dataset, Activity) * cbinding to the complete data set
-######dataset <- dataset[,-c(1,564)] * Removing unwanted columns
-
-# output 
-######dim(dataset)
-######[1] 10299   563
-
