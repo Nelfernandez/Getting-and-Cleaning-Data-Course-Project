@@ -1,10 +1,10 @@
 #####Reading files. This variables names correspond to each file to read
-actlabels
+actlabels,
 features
 
 #####This variables names correspond to each test file that was read
-subject_test
-X_test
+subject_test,
+X_test,
 y_test
 
 #####This variables names correspond to each train file that was read
