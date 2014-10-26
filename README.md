@@ -32,14 +32,4 @@ Getting-and-Cleaning-Data-Course-Project
 #### Creating one data set
 ######dataset <- cbind(Xbind, subjectbind, ybind)
 
-#### Merging the dataset block with activity labels
-######actname <- ("Activity")
-######colnames(actlabels) <- actname
-######dataset <- merge(dataset, actlabels, rownames = "Activity")
-
-#### Paste columns from activity number and activity name to create only one column and remove the unwanted columns that has numbers and names variables separated
-######Activity <- paste(dataset[,1], dataset[,564], sep = " ")
-######dataset <- cbind(dataset, Activity)
-######dataset <- dataset[,-c(1,564)]
-
 ### dataset created with 10299 rows and 563 columns 
