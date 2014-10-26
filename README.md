@@ -16,6 +16,7 @@ Getting-and-Cleaning-Data-Course-Project
 ######X_train <- read.table(file = "X_train.txt", header = FALSE)
 ######y_train <- read.table(file = "y_train.txt", header = FALSE)
 
+#### After reading data it's necessary to bind all the data read from test and train
 #### Merging data
 ######Xbind <- rbind(X_train,X_test)
 ######subjectbind <- rbind(subject_train, subject_test)
@@ -31,12 +32,14 @@ Getting-and-Cleaning-Data-Course-Project
 #### Creating one data set
 ######dataset <- cbind(Xbind, subjectbind, ybind)
 
-#### Merging with activity labels
+#### Merging the dataset block with activity labels
 ######actname <- ("Activity")
 ######colnames(actlabels) <- actname
 ######dataset <- merge(dataset, actlabels, rownames = "Activity")
 
-#### Paste columns from activity number and activity name
+#### Paste columns from activity number and activity name to create only one column and remove the unwanted columns that has numbers and names variables separated
 ######Activity <- paste(dataset[,1], dataset[,564], sep = " ")
 ######dataset <- cbind(dataset, Activity)
 ######dataset <- dataset[,-c(1,564)]
+
+### dataset created with 10299 rows and 563 columns 
