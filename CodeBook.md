@@ -1,8 +1,8 @@
-####Reading files. This variables names correspond to each file to read
+#####Reading files. This variables names correspond to each file to read
 actlabels
 features
 
-####This variables names correspond to each test file that was read
+#####This variables names correspond to each test file that was read
 subject_test
 X_test
 y_test
