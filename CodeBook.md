@@ -1,6 +1,6 @@
 #####Reading files. This variables names correspond to each file to read
 *actlabels
-*features
+**features
 
 #####This variables names correspond to each test file that was read
 *subject_test
