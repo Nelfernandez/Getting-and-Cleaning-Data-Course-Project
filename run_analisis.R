@@ -21,11 +21,3 @@ colnames(ybind) <- cnamey
 
 dataset <- cbind(Xbind, subjectbind, ybind)
 
-actname <- ("Activity")
-colnames(actlabels) <- actname
-dataset <- merge(dataset, actlabels, rownames = "Activity")
-
-Activity <- paste(dataset[,1], dataset[,564], sep = " ")
-dataset <- cbind(dataset, Activity)
-dataset <- dataset[,-c(1,564)]
-
